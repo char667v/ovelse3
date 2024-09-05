@@ -10,3 +10,77 @@ import Link from '../components/Link.astro';
 		<p>Link til <Link href="https://www.kea.dk" target="_blank">En anden side</Link></p>
 	</article>
 </MainLayout>
+<hr>
+---
+import MainLayout from "../layouts/MainLayout.astro";
+import Button from '../components/Button.astro';
+import Link from '../components/Link.astro';
+---
+<MainLayout title="Titel">
+	<section class="grid grid-cols-5">
+		<img src="https://picsum.photos/800/600" alt="" class="col-span-3">
+		<div class="col-span-2 grid content-center">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla bibendum nunc et magna malesuada faucibus efficitur nec quam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque odio ipsum, mollis sit amet ex id, lacinia posuere elit. </p>
+			<Button>Tryk på mig</Button>
+		</div>
+	</section>
+
+	<section class="max-w-xl mx-auto">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		<img src="https://picsum.photos/800/600" alt="">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla bibendum nunc et magna malesuada faucibus efficitur nec quam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque odio ipsum, mollis sit amet ex id, lacinia posuere elit. </p>
+		<div class="float-right"><Button>Tryk på mig</Button></div>
+	</section>
+
+	<section class="grid sm:grid-cols-3 lg:grid-cols-6">
+		<div class="grid justify-items-center">
+			<img src="https://picsum.photos/200" alt="">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		</div>
+		<div class="grid justify-items-center">
+			<img src="https://picsum.photos/200" alt="">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		</div>
+		
+		<section>
+		<div class="grid justify-items-center">
+				<img src="https://picsum.photos/200" alt="">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+		</section>
+		<div class="grid justify-items-center">
+			<img src="https://picsum.photos/200" alt="">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		</div>
+		<div class="grid justify-items-center">
+			<img src="https://picsum.photos/200" alt="">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		</div>
+	</section>
+
+	<section class="max-w-xl mx-auto">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		<img src="https://picsum.photos/800/600" alt="">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla bibendum nunc et magna malesuada faucibus efficitur nec quam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque odio ipsum, mollis sit amet ex id, lacinia posuere elit. </p>
+	</section>
+
+	<section class="grid grid-cols-3">
+		<div class="grid justify-items-center">
+			<img src="https://picsum.photos/200" alt="">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		</div>
+		<div class="grid justify-items-center">
+			<img src="https://picsum.photos/200" alt="">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		</div>
+		<div class="grid justify-items-center">
+			<img src="https://picsum.photos/200" alt="">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		</div>
+	</section>
+
+	<section class="max-w-xl mx-auto">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+		<p>Formular kommer senere</p>
+	</section>
+</MainLayout>
